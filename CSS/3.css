@@ -63,4 +63,80 @@
     #about-img{
         width: 100vw;
     }
+    #code-section{
+        flex-direction: column;
+    }
+    #Binary_img{
+        width: 100vw;
+    }
+
+}
+
+/* css for you will never code alone part  */
+#code-section {
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+
+#Binary_img{
+    width: 1888.19px;
+    height: 1598.67px;
+    left: -158.31px;
+    top: 239.71px;
+}
+#no_code_alone>h1 {
+    position: absolute;
+    width: 1040px;
+    height: 84px;
+    left: 275px;
+    top: 900px;
+
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 84px;
+/* identical to box height */
+
+    color: black;
+
+    /* font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 83.92px
+    text-align: center; */
+}
+/* #heading{
+    position: absolute;
+    top: 239.71px;
+    width: 1888.19px;
+    height: 1598.67px;
+    left: -158.31px;
+    /* transform: translate(-50%, -50%); 
+} */
+
+#description{
+    position: absolute;
+    width: 911px;
+    height: 146px;
+    left: 395px;
+    top: 1211px;    
+
+    font-family: 'Phantom Sans 0.7';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: right;
+
+    color: black;
+}
+#no_code_alone>img {
+    /* background-color: black; */
 }
